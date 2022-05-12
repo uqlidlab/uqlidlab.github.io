@@ -1,0 +1,957 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+
+<TITLE>Subhayan De, Ph.D.</TITLE>
+<link rel="icon" type="image/png" href="Pictures/3d_prob.png" />
+   
+
+
+</HEAD>
+
+<BODY>
+
+
+
+
+
+
+
+<style>
+   
+   
+   figure {
+    display: inline-block;
+    border: 1px dotted gray;
+    margin: 20px; /* adjust as needed */
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    border: 1px dotted blue;
+    text-align: center;
+} 
+   
+   
+ul.tab {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+border: 1px solid #ccc;
+background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+/*<meta http-equiv="refresh" content ="200000; url=https://sites.google.com/site/subhayandeusc">*/
+ul.tab li a {
+display: inline-block;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+transition: 0.3s;
+font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ccc;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #ddd;
+}
+
+/* Style the tab content */
+.tabcontent {
+display: none;
+padding: 6px 12px;
+-webkit-animation: fadeEffect 1s;
+animation: fadeEffect 1s;
+}
+
+@-webkit-keyframes fadeEffect {
+from {opacity: 0;}
+to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+from {opacity: 0;}
+to {opacity: 1;}
+}
+   
+/* Style the button that is used to open and close the collapsible content */
+        .collapsible {
+            background-color: #e6e6e6;
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: #ccc;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+        }
+        
+        /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+        .active, .collapsible:hover {
+            background-color: #cccccc;
+        }
+        
+        /* Style the collapsible content. Note: hidden by default */
+        .content {
+            padding: 0 18px;
+            display: none;
+            overflow: hidden;
+            background-color: #f1f1f1;
+        }
+hh1 {
+  font-size: 200%;
+}
+
+hh2 {
+  font-size: 150%;
+}
+
+hh3 {
+  font-size: 120%;
+}
+   
+</style> 
+   
+   <meta name="viewport" content="width=device-width, initial-scale=1"> 
+   <style>
+
+.hero-image {
+  background-image: url(book_background.png);
+  height: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 320px 120px;
+  position: relative; 
+  opacity: 1.0;
+} 
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black; 
+  opacity: 1.0;
+}
+
+</style>
+   
+<body> 
+   
+   <div class="hero-image">   
+   <div class="hero-text">
+
+   <h3 style="font-size:30px"> &nbsp; Subhayan De, Ph.D. &nbsp; </h3>
+	</div>
+</div>
+   <span style="display:inline-block; width: 20px;"></span> 
+   <!--
+   <div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">Subhayan De, Ph.D.</h1>
+    <!--<p>And I'm a Photographer</p>
+    <button>Hire me</button> 
+  </div>
+</div> 
+    <h1><span style="display:inline-block; width: 20px;"></span>Subhayan De, Ph.D. <img src="Pictures/3d_prob.png" type="image/png" style="width:80px;height:35px" frameborder="1" scrolling="no"> </img></h1>
+    -->
+    <ul class="tab">
+        <li><a href="#" class="tablinks" onclick="openCity(event, 'Home')"><hh3>Home <br /> &nbsp;</hh3></a></li>
+        <li><a href="#" class="tablinks" onclick="openCity(event, 'Education')"><hh3>Education &amp; <br />Experience</hh3> </a></li>
+       <!-- <li><a href="#" class="tablinks" onclick="openCity(event, 'Experience')">Experience</a></li> -->
+        <li><a href="#" class="tablinks" onclick="openCity(event, 'Research')"><hh3>Research <br /> &nbsp;</hh3></a></li>
+        <li><a href="#" class="tablinks" onclick="openCity(event, 'Publications')"><hh3>Publications <br /> &nbsp;</hh3></a></li>
+        <li><a href="#" class="tablinks" onclick="openCity(event, 'Codes and Tutorials')"><hh3>Codes &amp; <br /> Tutorials</hh3></a></li>
+        <li><a href="#" class="tablinks" onclick="openCity(event, 'Awards')"> <hh3>Talks &amp; <br /> Awards</hh3></a></li>
+       <!-- <li><a href="#" class="tablinks" onclick="openCity(event, 'Skills')">Skills</a></li> -->
+        <li><a href="#" class="tablinks" onclick="openCity(event, 'Photos')"><hh3>Photos <br /> &nbsp;</hh3></a></li>
+       <li><a href="#" class="tablinks" onclick="openCity(event, 'Contact')"><hh3>Contact  <br /> &nbsp;</hh3></a></li>
+
+
+    </ul>
+    &nbsp;
+    <div class='container2'; opacity:1>
+        <div>
+            <span style="display:inline-block; width: 60px;"></span><img src="Pictures/Profile_pic_Nov2021.jpeg" alt="Profile pic" style="width:125px;height:170px">
+                </div>
+        <div style='margin-left:60px;'>
+           <hh3><b>Postdoctoral Associate<br />University of Colorado Boulder</b></hh3>
+        </figure>
+        <br> 
+       <br> 
+       <hh3> A pdf version of my CV is available <a href="Docs/CV_Subhayan_De.pdf" target="_blank">here</hh3></a> (Nov. 2021).
+        
+
+    <div id="Home" class="tabcontent">
+        <hh3> I am currently a postdoctoral associate in the <A HREF="https://www.colorado.edu/aerospace/" target="_blank">Department of Aerospace Engineering Sciences</A> at the <A HREF="https://www.colorado.edu/" target="_blank">University of Colorado Boulder</A>. My research here focuses on Topology Optimization, Physics-driven Machine Learning, and Uncertainty Quantification.</hh3>
+       <br>
+       <hh3> Previously, I earned my Ph.D. from <A HREF="https://www.usc.edu/" target="_blank">USC (University of Southern California)</A>. My doctoral research focused on model validation, computationally efficient structural system identification, and control. During my Ph.D., I was supported by a Viterbi Ph.D. Fellowship at USC.</hh3>
+        <br>
+       <hh3> I earned my Master's degrees in <A HREF="http://civil.iisc.ernet.in/" target="_blank">Civil Engineering with a specialization in Structural Engineering</A> from the <A HREF="http://www.iisc.ac.in/"> Indian Institute of Science (IISc)</A> in 2013  and <A HREF="https://viterbigradadmission.usc.edu/programs/masters/msprograms/electrical-engineering/ms-electrical-engineering/" target="_blank"> Electrical Engineering</A> from the <A HREF="https://www.usc.edu/" target="_blank">University of Southern California</A> in 2016. I carried out research on Bayesian model selection and was supported by scholarships from the Ministry of Human Resource and Development, Govt. of India, during my stay at IISc. </hh3>
+        <br>
+        <hh3> I received my Bachelor of Engineering (B.Eng.) degree in Civil Engineering from <A href="http://www.jaduniv.edu.in/" target="_blank"> Jadavpur University</A> in 2011. My research topic was the Application of Genetic Algorithms in Civil Engineering Problems. </hh3>
+    
+           
+           
+
+    </div>
+
+    
+    <div id="Education" class="tabcontent">
+        <H2>Education:</H2>
+        <ul>
+            <li><hh3><b>Ph.D. in Civil Engineering</b> (2018) <i>University of Southern California, Los Angeles</i> <br> GPA - 4.0/4.0</hh3></li>
+            <li><hh3><b>M.S. in Electrical Engineering</b> (2016) <i>University of Southern California, Los Angeles</i> <br> GPA - 4.0/4.0</hh3></li>
+            <li><hh3><b>M.Eng. in Structural Engineering</b> (2013) <i>Indian Institute of Science, Bangalore</i> <br>GPA - 7.5/8.0 (Rank: 1st)</hh3></li>
+            <li><hh3><b>B.Eng. in Civil Engineering</b> (2011) <i>Jadavpur University, Kolkata</i> <br>GPA - 9.28/10.00 (Rank: 3rd)</hh3></li>
+        </ul>
+    
+    <H2>Experience:</H2>
+    <ul>
+       <hh3>
+        <li><b>Postdoctoral Associate</b> (June 2018 - present)
+        <br><i>University of Colorado, Boulder</i> <br>
+        Collaborators: <i>Alireza Doostan, Ph.D., and Kurt Maute, Ph.D.</i></li> 
+	       <li><b>Graduate Research Assistant</b> (2014, 2016-2017) <br><i>University of Southern California</i> <br> Supervisor: <i>Erik A. Johnson, Ph.D.</i></li>
+        <li><b>Graduate Research Assistant </b> (August, 2012 to July, 2013) <br><i>Indian Institute of Science</i> <br> Supervisors: <i>C. S. Manohar, Ph.D.</i>, and <i>Debraj Ghosh, Ph.D.</i>
+	       <li><b>Instructor for ASEN 3112: Structures</b> (Spring 2022)<br>
+            <i>Ann and H.J. Smead Department of Aerospace Engineering Sciences<br>
+            University of Colorado, Boulder</i></li> 
+	       <li><b>Lecturer for Random Vibrations</b> (Spring 2019)<br>
+            <i>Ann and H.J. Smead Department of Aerospace Engineering Sciences<br>
+            University of Colorado, Boulder</i></li>
+            <li><b>Teaching Assistant for CE 205: Statics, CE 408: Risk Analysis in Civil Engineering, CE 529a: Finite Element Analysis, </b> (2016-2018) <br>
+                <i>Sonny Astani Department of Civil and Environmental Engineering<br>
+                    University of Southern California</i></li>
+                    <!--<li><b>Teaching Assistant for CE 529a: Finite Element Analysis</b> (Summer 2017) <br>
+                <i>Sonny Astani Department of Civil and Environmental Engineering<br>
+                    University of Southern California</i></li>
+            <li><b>Teaching Assistant for CE 205: Statics </b> (Fall 2016) <br>
+                <i>Sonny Astani Department of Civil and Environmental Engineering<br>
+                    University of Southern California</i></li> -->
+            
+            <!--<li><b>Asia-Pacific Summer School on Smart Structures Technology</b> (July - August, 2015) <br>
+                <i>Department of Civil and Environmental Engineering<br>
+                    University of Illinois at Urbana-Champaign</i></li>
+            <li><b>Uncertainty Quantification Summer School</b> (August, 2016)<br>
+                <i>Sonny Astani Department of Civil and Environmental Engineering<br>
+                    University of Southern California</i></li>-->
+            </hh3>
+            </ul>
+       
+       <H2>Academic Background:</H2>
+       <hh3>
+        <P> <ul>
+            <li><b>Dynamics:</b> Structural Dynamics, Finite Element Method in Dynamics, Random Vibrations and Structural Reliability .... </li>
+            <li><b>Control Theory:</b>  Linear Feedback Control, Linear System Theory, Robust and Multivariable Control ....</li>
+            <li>Probability, Ordinary Differential Equations, Finite element method, Digital Signal Processing, Computational tools for Optimization, Machine Learning, Wavelets ....</li>
+            
+        </ul>
+        </P>
+       </hh3>
+
+    </div>
+    
+ <!--   <div id="Experience" class="tabcontent">
+        <H3>Experience:</H3>
+        <ul>
+            <li><b>Graduate Research Assistant</b> (2014, 2016-2017) <br><i>University of Southern California</i> <br> Supervisor: <i>Erik A. Johnson, Ph.D.</i></li>
+            <li><b>Graduate Research Assistant </b> (August, 2012 to July, 2013) <br><i>Indian Institute of Science</i> <br> Supervisors: <i>C. S. Manohar, Ph.D.</i>, and <i>Debraj Ghosh, Ph.D.</i>
+                <li><b>Teaching Assistant for CE 408: Risk Analysis in Civil Engineering</b> (Fall 2017) <br>
+                    <i>Sonny Astani Department of Civil and Environmental Engineering<br>
+                        University of Southern California</i></li>
+                <li><b>Teaching Assistant for CE 529a: Finite Element Analysis</b> (Summer 2017) <br>
+                    <i>Sonny Astani Department of Civil and Environmental Engineering<br>
+                        University of Southern California</i></li>
+                
+                <li><b>Asia-Pacific Summer School on Smart Structures Technology</b> (July - August, 2015) <br>
+                    <i>Department of Civil and Environmental Engineering<br>
+                    University of Illinois at Urbana-Champaign</i></li>
+                <li><b>Uncertainty Quantification Summer School</b> (August, 2016)<br>
+                    <i>Sonny Astani Department of Civil and Environmental Engineering<br>
+                        University of Southern California</i></li>
+
+        </ul>
+    </div> -->
+    
+    <div id="Research" class="tabcontent">
+        <H2>Research Interests:</H2> 
+       <hh3>
+	       The main goal of my research is to establish new probabilistic data-driven paradigms to efficiently develop and validate models using machine learning tools that can be used for the design of multi-scale multi-functional structural systems and materials. 
+	<br>
+	       <figure>
+                           <img src="Figures/Research_framework2-1.png" style="max-width:575px;height:auto"> <!-- frameborder="1" scrolling="no" align="left"--> 
+                              <figcaption><i>Figure: My research activities in a nutshell.</i></figcaption>
+                              </figure>
+	       
+        <!--<li>
+        <a href="#touu">Topology Optimization under Uncertainty (TOuU) </a> </li>
+        <li><a href="#ml">Machine Learning for Uncertainty Quantification </a></li>
+        <li><a href="#framework">Data-driven Probabilistic Model Validation Framework </a></li>
+        <li><a href="#bms">Efficient Bayesian Model Selection </a></li>
+        <li><a href="#control">Efficient Optimal Design of Passive Structural Control Devices </a></li> -->
+          
+            <button type="button" class="collapsible"><b><a id="ml">Machine Learning for Uncertainty Quantification </a></b> [Click for more details]</button>
+                        <div class="content">
+                            Recently, machine learning (ML)-assisted models, such as neural networks, capable of describing some of the complex physical phenomena with good accuracy and reasonable computational cost are increasingly used in engineering applications. For exercises that involve many realizations of the engineering systems (e.g., uncertainty quantification, design under uncertainty), these ML-assisted models can be exploited here to develop <i>physics-based surrogate models</i> that are easy to evaluate once trained but at the same time accurate.However, these networks require a large dataset to train. 
+				In this research thrust, I explore efficient training of neural networks using smaller datasets for applications to engineering problems. <br>
+                            <!--This work is done in collaboration with Prof. Alireza Doostan of CU Boulder and Dr. Matthew Reynolds of National Renewable Energy Laboratory (NREL). -->
+                            <br>
+                            Our contributions are: 
+                            <ul>
+                                <li>Development of transfer learning strategies for uncertainty quantification of complex engineering systems (<a href="http://www.dl.begellhouse.com/journals/52034eb04b657aea,3673619972b2eee6,3364eea04170ec7c.html"target="_blank">paper</a>). [<a href="https://github.com/CU-UQ/Transfer-Learning"target="_blank">codes</a>]</li>
+                               <li>Training of neural networks using l1-regularization and bi-fidelity data (<a href="https://arxiv.org/pdf/2105.13011.pdf"target = "_blank">paper</a>). </li>
+                               <li>Uncertainty quantification of locally nonlinear dynamical systems using neural networks (<a href="https://doi.org/10.1061/(ASCE)CP.1943-5487.0000965"target="_blank">paper</a>).</li>
+                            
+                               <li>Prediction of Ultrasonic Guided Wave Propagation in Solid-fluid and their Interface under Uncertainty using Machine Learning (<a href="https://doi.org/10.1061/(ASCE)EM.1943-7889.0002038"target="_blank">paper</a>).</li>
+                                <li>Application of the proposed strategies to multi-physics engineering prblems.</li>
+                            </ul>
+                           <figure>
+                           <!--<img src="Figures/bfwl-1.png" style="max-width:600px;height:340px"> </img>--> 
+				   <input type="image" src="Figures/bfwl-1.png" style="max-width:600px;height:auto">
+                              <figcaption><i>Figure: Schematic of the bi-fidelity weighted transfer learning.</i></figcaption>
+                              </figure>
+				
+			<figure>
+                           <img src="Figures/reg_pic.png" style="max-width:533px;height:auto"></img>
+                              <figcaption><i>Figure: Schematic of different regularization strategies. Standard l1 and weighted l1-regularizations are used in this <a href="https://arxiv.org/pdf/2105.13011.pdf"target = "_blank">paper</a> to train neural networks.</i></figcaption>
+                              </figure>
+                           <figure>
+                           <img src="Figures/Fig7_schem-1.png"  style="max-width:577px;height:auto">
+                              <figcaption><i>Figure: The use of neural networks for uncertainty quantification of locally nonlinear dynamical systems.</i></figcaption>
+                           </figure>
+                            
+                            
+                            
+                        </div>
+                        <button type="button" class="collapsible"><b><a id="touu">Design Optimization under Uncertainty</a></b> [Click for more details]</button>
+                        <div class="content"> 
+				
+				The robust design of engineering systems requires the inclusion of uncertainties in the optimization process. 
+				The aim of this research thrust is to develop efficient design methodology and algorithms that can reduce the computational cost of robust and reliability-based optimization while considering uncertainty across multiple scales. 
+				<H3>Topology Optimization under Uncertainty (TOuU)</H3> 
+				
+				In <i>topology optimization</i> (TO), we try to think about optimally distributing materials inside the structure to satisfy some performance criteria. 
+				However, in the presence of uncertainty, achieving a meaningful optimized design is computationally burdensome as the number of optimization variables is large in TO. 
+				In our recent works, we showed that the <i>topology optimization under uncertainty</i> for engineering design could be efficiently performed using multiple variants of the stochastic gradient descent algorithms (including two <i>novel bi-fidelity algorithms</i>), famously employed in the training of neural networks, but tailored for TO applications. 
+                            <!--This work is done in collaboration with Prof. Alireza Doostan and Prof. Kurt Maute of CU Boulder.-->
+                            <br>
+                            Our contributions are:
+                            <ul>
+                                <li>Development of a stochastic gradient approach for TOuU (<A HREF="https://link.springer.com/article/10.1007/s00158-020-02599-z" target="_blank">paper</A>). [<a href="https://github.com/CU-UQ/SGD"target="_blank">codes</a>]</li>
+                                <li>Development of bi-fidelity stochastic gradient descent algorithms with proven linear convergence (<a href="https://link.springer.com/article/10.1007/s00466-020-01870-w" target="_blank">paper</a>).</li>
+                                <li>Applications: Topology optimization under micro-scale uncertainty, reliability-based topology optimization (<a href="https://doi.org/10.1007/s00158-021-03023-w"target="_blank">paper#1</a>,<a href="https://arxiv.org/pdf/2110.13358.pdf"target="_blank">paper#2</a>).
+                                    </ul>
+                            <figure>
+                            <img src="Figures/mbb.png" type="image/png" style="max-width:333px;height:auto"> 
+				    &emsp;&emsp;&emsp;&ensp;
+                            <iframe src="Figures/TO_movie2.mp4" type="video/mp4" width="367" height="167"> </iframe> 
+                            <figcaption><i>Figure: A typical example used in topology optimization (Two-fold symmetry is used in the movie). </i> </figcaption>
+                            </figure>
+	       <br>
+                           <figure>
+                            <img src="Figures/Bracket_design.png" type="image/png" style="max-width:500px;height:auto"> 
+                            <figcaption><i>Figure: A bracket is designed to support a payload box under microstructural uncertainty. </i> </figcaption>
+                            </figure>
+                           <br>
+                            <br>
+	    
+	    <H3> Optimal Design of Passive Structural Control Devices </H3> 
+	    
+	    		    In the recent past, many types of structures have been equipped with control devices to achieve some performance criteria (such as drift or acceleration mitigation). 
+                            We developed computationally efficient design procedure of passive control devices for complex structures using NVIE approach.
+                            <!--<br>
+                            This work is done in collaboration with Prof. Steven Wojtkiewicz of Clarkson University.-->
+                            <br>
+                            The proposed method has the following characteristics (<a href="http://onlinelibrary.wiley.com/doi/10.1002/stc.1846/abstract" target="_blank">paper</a>):<ul>
+                                <li>Realizable computation time for large and complex structures.</li>
+                                <li>Trade-off between accuracy and speedup exists.</li>
+                                <li>Uncertainty in the existing structure can be incorporated.</li>
+                                <li>Application to a benchmark cable-stayed bridge.</li>
+                            </ul>
+                            <figure>
+                                <img src="Figures/bridge.png" alt="bridge pic" style="max-width:533px;height:auto">
+                               <figcaption> <i>Figure: Efficient optimal design of passive control devices for a cable-stayed bridge. </i> </figcaption>
+                                    </figure>
+                            
+                            <br>
+                            <br>
+                        </div>
+                        
+                        <button type="button" class="collapsible"><b><a id="framework">Data-driven Probabilistic Model Validation </a></b> [Click for more details] </button>
+                        <div class="content">
+				<H3> Probabilistic Model Validation Framework </H3> 
+				
+                            We developed a computationally efficient model validation framework applicable to models from vast domains based on philosophy advanced by the famous statistician George P. Box: <i>``Essentially, all models are wrong, but some are useful.''</i>
+                            This framework integrates the principle of falsification into the model selection process within a <i>Bayesian</i> framework utilizing measurement datasets from physical experiments to mitigate the weaknesses of existing individual validation schemes. 
+				<!--<br>This work is done in collaboration with Prof. Steven Wojtkiewicz of Clarkson University and Dr. Patrick T. Brewick of United States Naval Research Laboratory.
+                            -->
+				<br>
+                            Our contributions are:
+                            <ul>
+                                <li>Introduction of <i>false discovery rate</i> and <i>likelihood-bound</i> in model falsification (<a href="https://ascelibrary.org/doi/full/10.1061/%28ASCE%29EM.1943-7889.0001440" target="_blank">paper</a>). [<a href="https://github.com/subhayande/Model_Falsification"target="_blank">codes</a>]
+                                    <li>A probabilistic machine learning framework is proposed for efficient validation of models (<a href="https://www.sciencedirect.com/science/article/abs/pii/S088832701830685X" target="_blank">paper</a>).</li>
+                                    <li>Applications to structural, turbulence, and material modeling problems.</li>
+                                    </ul>
+                            
+                            </li>
+                            
+                            <figure>
+                            <img src="Figures/framework.png"  style="width:auto;max-height:200px"> 
+                            <img src="Figures/four_story.png"  style="width:auto;max-height:200px"> 
+                            <figcaption>
+                            <i>Figure: Proposed probabilistic model validation framework has been applied to a full-scale four-story building tested at Japan's E-Defense Lab. </i>
+                        </figcaption> 
+	       </figure>
+                           <br>
+                            <br>
+	<H3> Efficient Bayesian Model Selection </H3> 
+	Bayesian model selection chooses, based on measured data, using Bayes’ theorem, suitable mathematical models from a set of possible models. 
+	In structural analysis, linear models are often used to facilitate design and analysis, though they do not always accurately reproduce actual structural responses. 
+	When the models also require the inclusion of nonlinearity to improve accuracy, the computation time required for response simulation increases significantly. 
+			<!--This work is done in collaboration with Prof. Steven Wojtkiewicz of Clarkson University and Prof. Patrick T. Brewick of the University of Notre Dame.-->
+                            <br>
+                            To address this issue, our contributions are (<a href="https://ascelibrary.org/doi/abs/10.1061/%28ASCE%29EM.1943-7889.0001397" target="_blank">paper</a>):
+                            <ul>
+                                <li>Development of a computationally efficient method using Nonlinear Volterra type Integral Equations (NVIE) to model selection problems.</li>
+                                <li>Incorporating dynamic time history data for nonlinear models as the modal parameters changes with time in nonlinear models.</li>
+                                <li>Using NVIE approach the speedup is upto three orders of magnitude compared to traditional nonlinear solvers.</li>
+                                <li>The approach is demonstrated using a 100 DOF building structure subjected to earthquake excitation and a 1623 DOF three-dimensional building subjected to wind excitation.</li>
+                            </ul>
+                            
+                            </li> 
+                            <figure>
+                            <img src="Figures/100dof.png"  style="max-width:300px;height:auto">
+                               <figcaption>
+                                  <i>Figure: A 100 DOF building with hysteretic isolation layer is used in this <a href="https://ascelibrary.org/doi/abs/10.1061/%28ASCE%29EM.1943-7889.0001397" target="_blank">paper</a>. </i>
+                               </figcaption>
+                               </figure>
+                           <br> 
+                           <figure>
+                            <img src="Figures/1623.png"  style="max-width:200px;height:auto"> 
+                               <figcaption>
+                                  <i>Figure: A 1623 DOF (right) building  with three tuned-mass dampers on its roof is used in <a href="https://ascelibrary.org/doi/abs/10.1061/%28ASCE%29EM.1943-7889.0001397" target="_blank">paper</a>. </i>
+                               </figcaption>
+                               </figure>
+                            <br>
+                            
+                            <br>
+                            <br>
+                            
+                            <!--<b>Bayesian Model Selection in Structural Engineering  </b> <i>(Indian Institute of Science)</i> <br><br> A rigorous study on prior sensitivity, incorporation of training and validation data in Bayesian model selection.</li>
+                        -->
+			</div>
+                        
+                        <!--<button type="button" class="collapsible"><b><a id="bms">Efficient Bayesian Model Selection  </a></b> [Click for more details] </button>
+                        <div class="content">
+                            
+                            <br>This work is done in collaboration with Prof. Steven Wojtkiewicz of Clarkson University and Dr. Patrick T. Brewick of United States Naval Research Laboratory.
+                            <br>
+                            Our contributions are (<a href="https://ascelibrary.org/doi/abs/10.1061/%28ASCE%29EM.1943-7889.0001397" target="_blank">paper</a>):
+                            <ul>
+                                <li>Development of a computationally efficient method using Nonlinear Volterra type Integral Equations (NVIE) to model selection problems.</li>
+                                <li>Incorporating dynamic time history data for nonlinear models as the modal parameters changes with time in nonlinear models.</li>
+                                <li>Using NVIE approach the speedup is upto three orders of magnitude compared to traditional nonlinear solvers.</li>
+                                <li>The approach is demonstrated using a 100 DOF building structure subjected to earthquake excitation and a 1623 DOF three-dimensional building subjected to wind excitation.</li>
+                            </ul>
+                            
+                            </li> 
+                            <figure>
+                            <img src="Figures/100dof.png"  style="width:300px;height:300px" frameborder="1" scrolling="no" align="left">
+                               <br>
+                               <figcaption>
+                                  <i>Figure: A 100 DOF building with hysteretic isolation layer is used in this <a href="https://ascelibrary.org/doi/abs/10.1061/%28ASCE%29EM.1943-7889.0001397" target="_blank">paper</a>. </i>
+                               </figcaption>
+                               </figure>
+                           <br> 
+                           <figure>
+                            <img src="Figures/1623.png"  style="width:200px;height:350px" frameborder="1" scrolling="no" align="left"> 
+                              <br>
+                               <figcaption>
+                                  <i>Figure: A 1623 DOF (right) building  with three tuned-mass dampers on its roof is used in <a href="https://ascelibrary.org/doi/abs/10.1061/%28ASCE%29EM.1943-7889.0001397" target="_blank">paper</a>. </i>
+                               </figcaption>
+                               </figure>
+                            <br>
+                            
+                            <br>
+                            <br>
+                            
+                            <b>Bayesian Model Selection in Structural Engineering  </b> <i>(Indian Institute of Science)</i> <br><br> A rigorous study on prior sensitivity, incorporation of training and validation data in Bayesian model selection.</li>
+                        </div> -->
+                        
+                        <!-- <button type="button" class="collapsible"><b><a id="control">Optimal Design of Passive Structural Control Devices </a></b> [Click for more details] </button>
+                        <div class="content">
+                            <br>
+                            Development of computationally efficient design procedure of passive control devices for complex structures using NVIE approach.
+                            <br>
+                            This work is done in collaboration with Prof. Steven Wojtkiewicz of Clarkson University.
+                            <br>
+                            The proposed method has the following characteristics (<a href="http://onlinelibrary.wiley.com/doi/10.1002/stc.1846/abstract" target="_blank">paper</a>):<ul>
+                                <li>Realizable computation time for large and complex structures.</li>
+                                <li>Trade-off between accuracy and speedup exists.</li>
+                                <li>Uncertainty in the existing structure can be incorporated.</li>
+                                <li>Application to a benchmark cable-stayed bridge.</li>
+                            </ul>
+                            <figure>
+                                <img src="Figures/bridge.png" alt="bridge pic" style="width:800px;height:450px">
+                               <figcaption> <i>Figure: Efficient optimal design of passive control devices for a cable-stayed bridge. </i> </figcaption>
+                                    </figure>
+                            
+                            <br>
+                            <br>
+                        </div> -->
+        
+</hh3>
+        
+    </div>
+    
+    <div id="Publications" class="tabcontent">
+        <H2>Publications:</H2> 
+       
+       <a href="https://scholar.google.com/citations?user=TKC2E2cAAAAJ&hl=en&oi=ao" target="_blank"> <hh3>Google Scholar</hh3> </a>  <br>    
+       
+       <a href="https://www.researchgate.net/profile/Subhayan-De-3" target="_blank"> <hh3>ResearchGate</hh3> </a><br><br>       
+       
+        <hh3>Journals
+           
+        <ol type="1"> 
+		
+	    
+	    <li><b>De, S.</b>, Maute, K. and, Doostan A. <a href="https://arxiv.org/pdf/2110.13358.pdf" target="_blank">"Topology Optimization under Microscale Uncertainty using Stochastic Gradients"</a>, <i> Structural and Multidisciplinary Optimization </i> (in review).</li>
+            <li>Maute, K. and <b>De, S.</b> "Shape and Material Optimization of Problems with Dynamically Evolving Interfaces", <i> Structural and Multidisciplinary Optimization </i> (in review).</li>
+	    <li><b>De, S.</b>, and Doostan A. <a href="https://arxiv.org/abs/2105.13011" target="_blank">"Neural Network Training Using l1 Regularization and Bi-fidelity Data"</a>, <i> Journal of Computational Physics </i> (in press).</li>
+            <li><b>De, S.</b>, Maute, K. and, Doostan A. <a href="https://doi.org/10.1007/s00158-021-03023-w" target="_blank"> "Reliability-based Topology Optimization under Uncertainty using Stochastic Gradients"</a>, <i> Structural and Multidisciplinary Optimization </i> (2021).</li>
+            <li><b>De, S.</b>, Ebna Hai, B.S.M., Doostan A. and, Bause, M. <a href="https://doi.org/10.1061/(ASCE)EM.1943-7889.0002038" target="_blank"> "Ultrasonic guided wave-based structural health monitoring under uncertainty using machine learning"</a>, <i> Journal of Engineering Mechanics, </i> (2022).</li>
+            <li><b>De, S.</b>  <a href="https://ascelibrary.org/doi/abs/10.1061/%28ASCE%29CP.1943-5487.0000965" target="_blank">"Uncertainty Quantification of Locally Nonlinear Dynamic Systems using Neural Networks"</a>, <i> Journal of Computing in Civil Engineering, </i> (2021).</li> 
+            <li><b>De, S.</b>, Britton, J., Reynolds, M. and, Doostan A. <a href="http://www.dl.begellhouse.com/journals/52034eb04b657aea,3673619972b2eee6,3364eea04170ec7c.html">"On Transfer Learning of Neural Networks using Bi-fidelity Data for Uncertainty Propagation"</a>, <i> International Journal for Uncertainty Quantification </i> (2020).</li>
+            <li><b>De, S.</b>, Maute, K. and, Doostan A. <a href="https://link.springer.com/article/10.1007/s00466-020-01870-w" target="_blank">“Bi-fidelity Stochastic Gradient Descent for Structural Optimization under Uncertainty"</a>, <i> Computational Mechanics </i> (2020).</li>
+            <li><b>De, S.</b>, Hampton, J., Maute, K. and, Doostan A. <a href="https://link.springer.com/article/10.1007/s00158-020-02599-z" target="_blank">"Topology Optimization under Uncertainty using a Stochastic Gradient-based Approach"</a>, <i> Structural and Multidisciplinary Optimization </i> (2020).</li>
+            
+            <li><b>De, S.</b>, Brewick, P.T., Johnson, E.A. and, Wojtkiewicz S.F. <a href="https://www.sciencedirect.com/science/article/abs/pii/S088832701830685X" target="_blank">"A Probabilistic Hybrid Framework for Model Validation of Dynamic Systems"</a>, <i> Mechanical Systems and Signal Processing </i> (2019).</li>
+            <li><b>De, S.</b>, Brewick, P.T., Johnson, E.A. and, Wojtkiewicz S.F. <a href="https://ascelibrary.org/doi/full/10.1061/%28ASCE%29EM.1943-7889.0001440" target="_blank">"Investigation of Model Falsification using Error and Likelihood Bounds with Application to a Structural System"</a>, <i> Journal of Engineering Mechanics (Editor's choice) </i> (2018).</li> 
+            <li><b>De, S.</b>, Johnson, E.A., Wojtkiewicz S.F. and, Brewick, P.T. <a href="https://ascelibrary.org/doi/abs/10.1061/%28ASCE%29EM.1943-7889.0001397" target="_blank">"Computationally-Efficient Bayesian Model Selection for Locally Nonlinear Structural Dynamical Systems"</a>, <i> Journal of Engineering Mechanics (Editor's choice) </i> (2018).</li>
+            <li><b>De, S.</b>, Wojtkiewicz S.F. and, Johnson, E.A. <a href="http://onlinelibrary.wiley.com/doi/10.1002/stc.1846/abstract" target="_blank">"Computationally Efficient Optimal Design of Passive Control Devices for a Benchmark Cable-Stayed Bridge"</a>, <i>Structural Control and Health Monitoring</i> (2017).</li>
+            
+
+            
+            <!--<li><b>De, S.</b>, Johnson, E.A. and, Wojtkiewicz S.F. "Likelihood level adapted estimation of marginal likelihood for Bayesian model selection", <i> Journal TBD </i> (in preparation).</li>
+            <li><b>De, S.</b>, Brewick, P.T., Johnson, E.A. and, Wojtkiewicz S.F. "Robust Prediction of Structural Systems using Model Falsification", <i> Journal TBD </i> (in preparation).</li>-->
+        </ol>
+        
+        Conferences 
+          
+        <ol type="1">
+            <li><b>De, S.</b>, Kamalzare, M., Johnson, E.A. and , Wojtkiewicz S.F., "Efficient Optimal Design of Passive Structural Control Devices for Complex Structures",  <i>ASCE Engineering Mechanics Institute Conference</i>, August 2014 . McMaster University, ON, Canada.</li>
+            <li><b>De, S.</b>, Kamalzare, M., Johnson, E.A. and , Wojtkiewicz S.F., "Computationally-Efficient Bayesian Model Selection for Structural Systems with Local Nonlinearities", <i>ASCE Engineering Mechanics Institute Conference</i>, August 2014, McMaster University, ON, Canada.</li>
+            <li><b>De, S.</b>, Johnson, E.A. and , Wojtkiewicz S.F., <a href="https://open.library.ubc.ca/cIRcle/collections/53032/items/1.0076287" target="_blank">"Efficient Optimal Design-Under-Uncertainty of Passive Structural Control Devices"</a>,  <i>12th International Conference on Applications of Statistics and Probability in Civil Engineering</i>, ICASP12,  July 2015, Vancouver, BC, Canada.</li>
+            <li><b>De, S.</b>, Johnson, E.A. and , Wojtkiewicz S.F., <a href="http://sstl.cee.illinois.edu/papers/aeseancrisst15/297_De_Fast.pdf" target="_blank">"Fast Bayesian Model Selection with Application to Large Locally-Nonlinear Dynamic Systems "</a>, <i>6th International Conference on Advances in Experimental Structural Engineering, 11th International Workshop on Advanced Smart Materials and Smart Structures Technology</i>, August 1-2, 2015, University of Illinois, Urbana-Champaign, USA.</li>
+            <li><b>De, S.</b>, Johnson, E.A. and , Wojtkiewicz S.F., Brewick, P.B., <a href="http://dpi-proceedings.com/index.php/SHM2015/article/view/950" target="_blank">"Efficient Bayesian Model Selection for Locally Nonlinear Systems incorporating Dynamic Measurements"</a>, <i>10th International Workshop on Structural Health Monitoring (IWSHM)</i>, September 2015, Stanford University, CA, USA.</li>
+            <li><b>De, S.</b>, Brewick, P.T., Johnson, E.A. and, Wojtkiewicz S.F. "Exploration of Error Rate Criteria to Decide Bounds for Model Falsification'', <i>ASCE Engineering Mechanics Institute Conference</i>, May, 2016, Vanderbilt University, Nashville, TN, USA.</li>
+            <li><b>De, S.</b>, Brewick, P.T., Johnson, E.A., Wojtkiewicz S.F. and, Bermejo-Moreno I. <a href="https://sem.org/paper-details/?uid=1911&aid=513&cty=imac" target="_blank">"Error and Likelihood Bounds for Falsification of Dynamical Models''</a>, <i>IMAC XXXV Conference</i>, 2017, Hyatt Regency Orange County, CA, USA.</li>
+            <li><b>De, S.</b>, Johnson, E.A. and, Wojtkiewicz S.F. "Efficient Uncertainty Quantification for Locally Nonlinear Dynamical Systems'', <i>ASCE Engineering Mechanics Institute Conference</i>, 2017, University of California, San Diego, CA, USA.</li>
+            <li><b>De, S.</b>, Brewick, P.T., Johnson, E.A. and, Wojtkiewicz S.F. "Model Falsification in a Bayesian Framework'', <i>ASCE Engineering Mechanics Institute Conference</i>, 2017, University of California, San Diego, CA, USA.</li>
+            <li><b>De, S.</b>, Yu, T., Johnson, E.A. and, Wojtkiewicz S.F. "Model Validation of a 4 Story Base Isolated Building using Seismic Shake-Table Experiments'', <i>11th U.S.~National Conference on Earthquake Engineering</i>, 2018, Los Angeles, CA, USA.</li>
+            <li><b>De, S.</b>, Johnson, E.A. and, Wojtkiewicz S.F. "Uncertainty Quantification of Locally
+                Nonlinear Dynamical Systems using Polynomial Chaos Expansion", <i>SIAM Conference on
+                    Uncertainty Quantification (UQ18)</i>, 2018, Hyatt Regency Orange County, Garden Grove, CA,
+                USA.</li>
+            <li><b>De, S.</b>, Dasgupta, A., Johnson, E.A. and, Wojtkiewicz S.F. "Probabilistic Model Validation
+                of Large-Scale Systems using Reduced Order Models", <i>SIAM Conference on
+                    Uncertainty Quantification (UQ18)</i>, 2018, Hyatt Regency Orange County, Garden Grove, CA,
+                USA.</li>
+            <li><b>De, S.</b>, Yu, T., Dasgupta, A., Johnson, E.A. and, Wojtkiewicz S.F. "Probabilistic Model
+                Validation of the Isolation layer of a Full-Scale Four-Story Base-Isolated Building", <i>ASCE
+                    Engineering Mechanics Institute Conference, </i>, 2018, Massachusetts Institute of Technology, Cambridge, MA,
+                USA.</li>
+            <li>Dasgupta A., <b>De, S.</b>, Yu, T., Johnson, E.A. and, Wojtkiewicz S.F. "Probabilistic validation of material models", <i>ASCE Engineering Mechanics Institute Conference, </i>, 2018, Massachusetts Institute of Technology, Cambridge, MA,
+            USA.</li>
+            <li><b>De, S.</b>, Maute, K. and, Doostan, A. "Topology Optimization under Uncertainty using
+                Stochastic Gradients", <i>Topology Optimization Roundtable,</i>, 2019, Albuquerque Marriot, Albuquerque, NM,
+                USA.</li>
+            <li><b>De, S.</b>, Maute, K. and, Doostan, A. "Optimization under Uncertainty Using Stochastic
+                Gradients", <i>15th U.S. Congress on Computational Mechanics</i>, 2019, Austin, TX, USA.</li>
+            <li><b>De, S.</b>, Johnson, E.A. and, Wojtkiewicz S.F. "Efficient Evidence Estimation for Bayesian
+                Model Selection", <i>ASCE Engineering Mechanics Institute Conference, </i>, 2019, California Institute
+                of Technology, Pasadena, CA, USA.</li>
+            <li>Glaws, A., King, R, Reynolds, M., Doostan, A. and, <b>De, S.</b> "Physics-informed Deep Learning for Multi-fidelity Uncertainty Quantification", <i>Workshop on Research Challenges and
+                Opportunities at the interface of Machine Learning and Uncertainty Quantification</i>, 2019, Los Angeles, CA, USA.</li>
+            <li><b>De, S.</b>, Britton, J., Reynolds, M. and, Doostan, A. "Neural Network Training using Bi-fidelity Data for Uncertainty Quantification", <i>SIAM Conference on Uncertainty Quantification (UQ20),</i>,2020, Munich, Germany (cancelled due to COVID-19).</li>
+            <li><b>De, S.</b>, Britton, J., Reynolds, M. and, Doostan, A. "Ultrasonic guided wave-based structural health monitoring system in fluid-solid and their interface", <i>10th European Workshop on Structural Health Monitoring (EWSHM 2020),</i>,2020, Palermo, Italy (postponed due to COVID-19).</li>
+            <li><b>De, S.</b>  and, Doostan, A. "Multi-fidelity methods for deep neural network surrogates", <i>SIAM Conference on Computational Science and Engineering (CSE21),</i>,2021, Fort Worth, Texas, USA.</li>
+            <li><b>De, S.</b>, Maute, K. and, Doostan, A. "Topology Optimization in the Presence of Microscale Uncertainty", <i>ASCE Engineering Mechanics Institute Conference,</i>,2021, New York, USA.</li>
+            <li><b>De, S.</b>, Maute, K. and, Doostan, A. "Use of Stochastic Gradient Descent for Topology Optimization under Reliability Constraints", <i>16th U.S. Congress on Computational Mechanics,</i>,2021, Chicago, USA.</li>
+            <li><b>De, S.</b>, Maute, K. and, Doostan, A. "Microscale Uncertainty in Macroscale Topology Optimization", <i>14th World Congress of Structural and Multidisciplinary Optimization (WCSMO-14),</i>,2021, Boulder, USA.</li>
+	    <li>Maute, K., <b>De, S.</b> and, Doostan, A. "Shape and Material Optimization of Problems with Dynamically Evolving Interfaces", <i>14th World Congress of Structural and Multidisciplinary Optimization (WCSMO-14),</i>,2021, Boulder, USA.</li>
+	    <li><b>De, S.</b> and, Doostan, A. "Bi-fidelity Training of Neural Networks Using l1-Regularization", <i>SIAM Conference on Uncertainty Quantification (UQ22),</i>,2022, Atlanta, USA.</li>
+		</ol>
+    </div>
+    
+    <div id="Codes and Tutorials" class="tabcontent">
+       
+       <H2> Codes </H2> 
+        <H3><a href="https://github.com/CU-UQ/Transfer-Learning" target="_blank">Transfer Learning of Neural Networks</a></H3>
+        <H3><a href="https://github.com/CU-UQ/SGD" target="_blank">Stochastic Gradient Descent Algorithms</a></H3>
+       <H3><a href="https://github.com/subhayande/Model_Falsification" target="_blank">Data-driven Model Falsification Methods</a></H3>
+       
+       <H2>Tutorials</H2> 
+        <H3><a href="Docs/NN_Tutorial.pdf" target="_blank">Neural Networks and Backpropagation</a></H3>
+        <!--<H3><a href="Docs/statics_review.pdf" target="_blank">Engineering Mechanics:</a></H3>-->
+	    <H3><a href="Docs/Mechanics of Deformable Bodies.pdf" target="_blank">Mechanics of Deformable Bodies</a></H3>
+        <!--<H3><a href="https://www.dropbox.com/s/xby686pdd35a39t/book_1_template.pdf?dl=0" target="_blank">Mechanics of Deformable Bodies</a></H3>
+        <!-- <ul>
+            <li><a href="statics_review.pdf" target="_blank">Review of Statics.</a></li>
+            <li>Concept of Stress - <a href="stress.pdf" target="_blank">Part 1</a>, <a href="stress2.pdf" target="_blank">Part 2</a>, <a href="stress3.pdf">Part 3</a></li>
+            <li><a href="hookes.pdf" target="_blank">Generalized Hooke's Law.</a></li>
+            <li>Torsion - <a href="torsion1.pdf" target="_blank">Part 1</a>, <a href="torsion2.pdf" target="_blank">Part 2</a>.</li>
+            <li>Bending - <a href="bending.pdf" target="_blank">Part 1</a>, <a href="comp_beam.pdf" target="_blank">Part 2</a>.</li>
+            <li>Shear - <a href="shear1.pdf" target="_blank">Part 1</a>, <a href="shear2.pdf" target="_blank">Part 2</a>.</li>
+            <li>Transformation of Stress - <a href="transformation1.pdf" target="_blank">Part 1</a>, <a href="transformation2.pdf" target="_blank">Part 2 (Mohr's circle)</a>.</li>
+            <li>Deflection of Beams - <a href="deflection1.pdf" target="_blank">Part 1</a>, <a href="deflection2.pdf" target="_blank">Part 2 (Moment-area method)</a>.</li>
+        </ul>
+         -->
+        
+	    <H3><a href="Docs/Introduction to Probability and Statistics.pdf" target="_blank">Probability and Statistics for Engineers</a></H3>
+         <!--<H3><a href="https://www.dropbox.com/s/ks9zsh0pxss7ud6/notes.pdf?dl=0" target="_blank">Probability and Statistics for Engineers</a></H3>
+       <ul>
+            <li><a href="Elements_of_Probability.pdf">Elements of Probability</a></li>
+            <ul><li><a href="extra_prob.pdf">Extra Solved Problems</a></li></ul>
+            <li><a href="RV.pdf">Random Variables</a></li>
+            <ul><li>Extra Solved Problems: <a href="Extra_RV.pdf">Set 1</a>, <a href="extra_RV2.pdf">Set 2</a>, <a href="extra_RV3.pdf">Set 3</a></li>
+            </ul>
+            
+            <li><a href="condn.pdf">Conditional Probability Distributions</a></li>
+            <li>Special Random Variables <a href="special_RV.pdf">Part 1</a>, <a href="special_RV2.pdf">Part 2</a></li>
+            <ul><li>Solved Problems: <a href="special_RV_prob.pdf">Set 1</a>, <a href="special_RV_prob2.pdf">Set 2</a></a></li>
+            </ul>
+
+            <li><a href="sample_stat.pdf">Sampling Statistics</a></li>
+            <li><a href="param_est.pdf">Parameter Estimation</a></li>
+            <li><a href="Hyp_test.pdf">Hypothesis Testing</a></li>
+            <li><a href="reg.pdf">Regression</a></li>
+            <li>Analysis of Variance</li>
+        </ul> -->
+        <H3>Model Validation:</H3>
+        <ul>
+            <li><hh3><a href="Docs/model_selection_primer.pdf" target="_blank">A primer on Bayesian model selection.</a></hh3></li>
+            <li><hh3>Python library <i>mVal</i> coming soon.</hh3></li>
+        </ul>
+        <H3>Introduction to Statistics using Python:</H3>
+        <ul>
+            
+           <li><hh3><a href="Docs/intro.pdf" target="_blank">Introduction</a></hh3></li>
+   <!--         <li><a href="Descriptive_statistics.pdf" target="_blank">Descriptive Statistics</a></li>
+            <li><a href="descriptive_stat.zip" target="_blank">Descriptive Statistics Codes</a></li> -->
+        </ul>
+        
+        
+  <!--  <ul>
+            <li><a href="Force_system1.pdf">Force System Resultants</a></li>
+            <ul><li><a href="Force_systems_prob.pdf">Extra Solved Problems</a></li></ul>
+            <li>Truss Analysis</li>
+            <ul><li><a href="Joints.pdf">Method of Joints</a></li>
+            <li><a href="Sections.pdf">Method of Sections</a></li>
+            </ul>
+            <li><a href="Frames.pdf">Frames and Machines</a></li>
+            <li><a href="Smd.pdf">Shear and Moment Diagrams</a></li>
+            <li><a href="Friction.pdf">Dry Friction</a></li>
+        </ul> -->
+    </div>
+    
+    <div id="Awards" class="tabcontent">
+        <H2>Invited Talks:</H2>
+       <hh3>
+        <ul>
+	    <li>Department of Aerospace Engineering Sciences, University of Colorado, Boulder, <b>"Machine Learning Techniques for Modeling and Design under Uncertainty", </b> November, 2021.</li>
+	    <li>Sandia National Laboratory, <b>"Multi-fidelity Methods for Deep Neural Network Surrogates", </b> May, 2021.</li>
+	    <li>Palo Alto Research Center, <b>"Design under Uncertainty using Stochastic Gradients", </b> April, 2021.</li>
+            <li>Faculty of Mechanical Engineering, Helmut Schmidt University, <b>"Dealing with Uncertainty in Modeling of Structures: Applications to Model Validation and Design Optimization", </b> April, 2020. (canceled due to COVID-19 outbreak).</li>
+	    <li>Faculty of Architecture, Civil Engineering and Environmental Sciences, Technische Universitat Braunschweig, <b>"Data-driven Modeling, Validation, and Design under Uncertainty", </b> July, 2020 (Webinar).</li>
+            <li>Department of Aerospace Engineering Sciences, University of Colorado, Boulder, <b>"Incorporating Uncertainty into Modeling: Applications to Model Validation and Design Optimization", </b> November, 2019.</li>
+            <li>Department of Civil Engineering, Indian Institute of Technology, Kanpur, <b>"Applications of
+                Probabilistic Hybrid Model Validation Framework to Structural Problems", </b> January, 2018.</li>
+            <li>Department of Civil Engineering, Indian Institute of Science, Bangalore, <b>"Probabilistic Hybrid Model Validation Framework", </b> December, 2017.</li>
+            <li>Department of Civil and Environmental Engineering, University of Southern California, <b>"Efficient Bayesian Model Selection for Locally Nonlinear Systems incorporating Dynamic Measurements",</b> March, 2015.</li>
+        </ul> 
+          
+       </hh3>
+        
+       
+        <H2>Synergistic Activities:</H2>
+          
+       <hh3>
+       <ul>
+	    <li>Moderated a discussion on <i>“Artificial Intelligence and Machine Learning”</i> at the 14th World Congress of Structural and Multidisciplinary Optimization, June, 2021. </li>   
+            <li>Organized and chaired  a session on <i>“Robust design and reliability-based design optimization”</i> at the 14th World Congress of Structural and Multidisciplinary Optimization, June, 2021.</li>
+            <li>Organized and chaired a minisymposium on <i>“Advances in Design Optimization under Uncertainty”</i> at the 15th U.S. Congress on Computational Mechanics, July-August, 2019.</li>
+            <li>Chaired a session on <i>“Polynomial Chaos and Polynomial Approximation”</i> at the SIAM Conference on Uncertainty Quantification (UQ18), Hyatt Regency Orange County, Garden Grove, California, USA, April, 2018.</li>
+            <li>Reviewer for <i>Structural Control and Health Monitoring, Computer Methods in Applied Mechanics and Engineering, Computational Geomechanics, ASCE Journal of Bridge Engineering, AIAA Journal, International Journal for Uncertainty Quantification, Vibrations, 
+		    Journal of Engineering Mechanics, Journal of Computing in Civil Engineering, International Journal for Numerical Methods in Engineering, Entropy, Ultrasonics, Scientific Reports, Journal of Intelligent Material Systems and Structures, and Engineering with Computers</i>.</li>
+        </ul>
+       </hh3>
+       
+    <H2>Honors and Awards:</H2>
+         
+       <hh3>
+    <ul>
+        <li>Recipient of <b>SIAM Early Career Travel Grant</b> to attend <i>SIAM Conference on Computational Science and Engineering</i>, 2021.</li>
+        <li>Recipient of <b>Postdoctoral Association of Colorado Boulder Travel Grant</b> to attend <i>Engineeering Mechanics Institute Conference</i>, 2021.</li>
+        <li>Recipient of <b>best dissertation award</b> in Civil Engineering at the University of Southern California, 2018.</li>
+        <li>Recipients of <b>Viterbi PhD Fellowship</b> (2013-2017) and Gammel scholarship (Spring 2017) from the University of Southern California.</li>
+        <li>Recipient of <b>Ministry of Human Resource Development, Govt. of India Scholarship</b> for Graduate studies (August, 2011-July, 2013).</li>
+        <li>Received travel grants from USC Graduate Student Government to attend <i>ASCE Engineering Mechanics Institute Conference</i>, 2014 and 2017, <i>IMAC XXXV Conference</i>, 2017.</li>
+        <li><i>ASCE Engineering Mechanics Institute Conference</i> Probabilistic Methods student paper competition finalist in 2014, 2017.</li>
+        <li>Reciepient of scholarship from National Science Foundation to attend the <i>Asia-Pacific Summer School on Smart Structures Technology</i>, 2015.</li>
+        <li>Selected as <i>Research Assistant of the month</i> in March 2015.</li>
+        <li>GATE (Graduate Aptitude Test in Engineering) <b>All India Rank: 5th</b> in the year 2011 (Civil Engineering).</li>
+        <li><b>University Bronze Medal</b> at Jadavpur University.</li>
+        
+    </ul> 
+       </hh3>
+          
+    <H2>Computer Skills:</H2>
+                
+       <hh3>
+    <ul>
+        <li><b>Programming:</b> C, FORTRAN, Python.</li>
+        <li><b>Scientific tools:</b> M<small>ATLAB</small>, Mathematica, Maple, ANSYS, AUTOCAD.</li>
+        <li><b>OS:</b> Windows, Mac OSX, Linux/Unix.</li>
+    </ul> 
+          
+       </hh3>
+    
+    <H2>Languages:</H2> 
+          
+       <hh3>
+    <ul>
+        <li><b>English:</b> Fluent</li>
+        <li><b>Bengali:</b> Mother-tongue</li>
+        <li><b>Hindi:</b> Fluent</li>
+    </ul> 
+       </hh3>
+          
+          </div>
+
+    
+    </div>
+    
+  <!--  <div id="Skills" class="tabcontent">
+    <H3>Computer Skills:</H3>
+    <ul>
+        <li><b>Programming:</b> C, FORTRAN, Python.</li>
+        <li><b>Scientific tools:</b> M<small>ATLAB</small>, Mathematica, Maple, ANSYS, AUTOCAD.</li>
+        <li><b>OS:</b> Windows, Mac OSX, Linux/Unix.</li>
+    </ul>
+    
+    <H3>Languages:</H3>
+    <ul>
+        <li><b>English:</b> Fluent</li>
+        <li><b>Bengali:</b> Mother-tongue</li>
+        <li><b>Hindi:</b> Fluent</li>
+    </ul> </div>
+    
+    -->
+    
+    <div id="Photos" class="tabcontent">
+        
+        
+        
+        <figure>
+            
+            <img src="Pictures/group_pic1.jpg" alt="pic_with_prof" style="width:440px;height:286px">
+                <!--<P> <span style="display:inline-block; width: 160px;"></span> <small>(from left) Agnimitra Dasgupta, Tianhao Yu, Prof. Erik Johnson, Subhayan De, Qian "Monica" Fang (2017).</small></P>
+                -->
+           <figcaption>
+                   (from left) Agnimitra Dasgupta, Tianhao Yu, Prof. Erik Johnson, Subhayan De, Qian "Monica" Fang (2017).
+                   </figcaption>
+                   
+                </figure>
+        <figure>
+            
+            <img src="Pictures/Saby_pic1.png" alt="self_pic1" style="width:340px;height:286px">
+                <!--<P> <span style="display:inline-block; width: 160px;"></span> <small>In front of the Department of Civil and Environmental Engineering, USC (2017).</small></P>-->
+                <figcaption>
+                   In front of the Department of Civil Engineering, USC (2017).
+                   </figcaption>
+                </figure>
+
+<figure>
+    
+    <img src="Pictures/pub.jpg" alt="pic_with_group1" style="width:450px;height:286px">
+        <!--<P> <span style="display:inline-block; width: 160px;"></span> <small>(from left) Dr. Brewick, Tianhao Yu, Qian "Monica" Fang, Subhayan De (2016).</small></P>-->
+        <figcaption>
+                   (from left) Dr. Brewick, Tianhao Yu, Qian "Monica" Fang, Subhayan De (2016).
+                   </figcaption>
+        </figure>
+
+
+        <figure>
+            
+            <img src="Pictures/withProf.jpg" alt="pic_with_prof" style="width:512px;height:286px">
+                <!--<P> <span style="display:inline-block; width: 160px;"></span> <small>With my advisor Prof. Erik A. Johnson (2015).</small></P>-->
+<figcaption>
+                  With my advisor Prof. Erik A. Johnson (2015).
+                   </figcaption>
+                </figure>
+        
+     <H3>Boulder, Colorado</H3>  
+       <figure> 
+            <img src="Pictures/Boulder_pic.jpg" alt="B1" style="width:631px;height:309px">
+                
+            </figure> 
+	    
+      <figure> 
+            <img src="Pictures/Boulder_pic2.jpg" alt="B1" style="width:663px;height:323px">
+                
+            </figure> 
+	    
+      <figure> 
+            <img src="Pictures/Boulder_pic3.jpg" alt="B1" style="width:500px;height:333px">
+                
+            </figure> 
+	    
+     <H3>Yellowstone National Park</H3>  
+       <figure> 
+            <img src="Pictures/Yellowstone/Y1.jpg" alt="Y1" style="width:512px;height:286px">
+                <!--<P> <span style="display:inline-block; width: 160px;"></span> <small>With my advisor Prof. Erik A. Johnson (2015).</small></P>-->
+                </figure> 
+       
+       <figure> 
+            <img src="Pictures/Yellowstone/Y2.jpg" alt="Y2" style="width:512px;height:286px">
+                <!--<P> <span style="display:inline-block; width: 160px;"></span> <small>With my advisor Prof. Erik A. Johnson (2015).</small></P>-->
+                </figure>
+       
+       <figure> 
+            <img src="Pictures/Yellowstone/Y5.jpg" alt="Y3" style="width:512px;height:286px">
+                <!--<P> <span style="display:inline-block; width: 160px;"></span> <small>With my advisor Prof. Erik A. Johnson (2015).</small></P>-->
+                </figure>
+       
+       <figure> 
+            <img src="Pictures/Yellowstone/Y6.jpg" alt="Y4" style="width:512px;height:286px">
+                <!--<P> <span style="display:inline-block; width: 160px;"></span> <small>With my advisor Prof. Erik A. Johnson (2015).</small></P>-->
+                </figure>
+        <figure> 
+            <img src="Pictures/Yellowstone/Y7.jpg" alt="Y4" style="width:512px;height:286px">
+                <!--<P> <span style="display:inline-block; width: 160px;"></span> <small>With my advisor Prof. Erik A. Johnson (2015).</small></P>-->
+                </figure>
+    
+       <H3>Arches National Park</H3>  
+       <figure> 
+            <img src="Pictures/Arches/A6.jpg" alt="A6" style="width:512px;height:286px">
+                <!--<P> <span style="display:inline-block; width: 160px;"></span> <small>With my advisor Prof. Erik A. Johnson (2015).</small></P>-->
+                </figure> 
+       
+       <figure> 
+            <img src="Pictures/Arches/A8.jpg" alt="A8" style="width:512px;height:286px">
+                <!--<P> <span style="display:inline-block; width: 160px;"></span> <small>With my advisor Prof. Erik A. Johnson (2015).</small></P>-->
+                </figure>
+       <figure> 
+            <img src="Pictures/Arches/A3.jpg" alt="A3" style="width:512px;height:286px">
+                <!--<P> <span style="display:inline-block; width: 160px;"></span> <small>With my advisor Prof. Erik A. Johnson (2015).</small></P>-->
+                </figure> 
+       <figure> 
+            <img src="Pictures/Arches/A9.jpg" alt="A9" style="width:512px;height:286px">
+                <!--<P> <span style="display:inline-block; width: 160px;"></span> <small>With my advisor Prof. Erik A. Johnson (2015).</small></P>-->
+                </figure> 
+	    
+  <H3>Royal Gorge Bridge, Colorado</H3>  
+       <figure> 
+            <img src="Pictures/Royal_Gorge.jpg" alt="Royal Gorge Bridge" style="width:512px;height:286px">
+                <!--<P> <span style="display:inline-block; width: 160px;"></span> <small>With my advisor Prof. Erik A. Johnson (2015).</small></P>-->
+                </figure> 
+       
+    </div>
+    
+
+
+
+
+
+
+    <div id="Contact" class="tabcontent">
+        <H2>Contact:</H2> 
+       <hh3>
+        <ul>
+            <H4>Subhayan De</H4>
+            Smead Department of Aerospace Engineering Sciences<br>
+            University of Colorado Boulder<br>
+            3775 Discovery Drive<br>
+            Boulder, CO 80303<br>
+            USA<br>
+            Email: <A HREF="mailto:Subhayan.de@colorado.edu">Subhayan.De@colorado.edu</A><br>
+        </ul>    
+          
+       </hh3>
+	<br>
+	<br>
+<H2> Visitors from unique locations (since May 2021): </H2> <br>
+<!--<script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=5ddrfwqhq9x&amp;m=0&amp;c=ff0000&amp;cr1=ff0000&amp;f=arial&amp;l=0&amp;bv=100&amp;z=11&amp;rs=100" async="async"></script>-->
+<!--<script type="text/javascript" src="//rf.revolvermaps.com/0/0/5.js?i=5ddrfwqhq9x&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;b=100&amp;rs=100" async="async"></script>-->
+<div style="display:inline-block;width:370px;"><script type="text/javascript" src="//rf.revolvermaps.com/0/0/7.js?i=5ddrfwqhq9x&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;sx=0&amp;ds=50" async="async"></script></div>
+</div>
+
+
+    <script>
+        
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tabcontent.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+     
+     ga('create', 'UA-78885112-1', 'auto');
+     ga('send', 'pageview');
+     
+     var coll = document.getElementsByClassName("collapsible");
+                 var i;
+                 
+                 for (i = 0; i < coll.length; i++) {
+                     coll[i].addEventListener("click", function() {
+                                              this.classList.toggle("active");
+                                              var content = this.nextElementSibling;
+                                              if (content.style.display === "block") {
+                                              content.style.display = "none";
+                                              } else {
+                                              content.style.display = "block";
+                                              }
+                                              });
+                 }
+    
+        </script>
+    
+    
+    
+    <IMG WIDTH=560 HEIGHT=3
+        SRC="/Pictures/USCBar2.gif"
+        ALT="=================================================="
+        >
+
+</BODY>
+
+</HTML>
