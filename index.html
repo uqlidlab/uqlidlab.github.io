@@ -199,9 +199,243 @@ hh3 {
        	<br> 
        <hh3> <a href="Docs/CV_Subhayan_De.pdf" target="_blank">CV</hh3></a> (Nov. 2021).
 	</div>
-
-    
     	</div>
+	
+	<div id="Research" class="tabcontent">
+        <H2>Research Projects:</H2> 
+       <hh3>
+	       The main research goal of UQLID Lab is to establish new probabilistic data-driven paradigms to efficiently develop and validate models using machine learning tools that can be used for the design of multi-scale multi-functional structural systems and materials. 
+	<br>
+	       <figure>
+                           <img src="Figures/Research_framework2-1.png" style="max-width:575px;height:auto"> <!-- frameborder="1" scrolling="no" align="left"--> 
+                              <figcaption><i>Figure: Research activities at UQLID Lab.</i></figcaption>
+                              </figure>
+	       
+        <!--<li>
+        <a href="#touu">Topology Optimization under Uncertainty (TOuU) </a> </li>
+        <li><a href="#ml">Machine Learning for Uncertainty Quantification </a></li>
+        <li><a href="#framework">Data-driven Probabilistic Model Validation Framework </a></li>
+        <li><a href="#bms">Efficient Bayesian Model Selection </a></li>
+        <li><a href="#control">Efficient Optimal Design of Passive Structural Control Devices </a></li> -->
+          
+            <button type="button" class="collapsible"><b><a id="ml">Machine Learning for Uncertainty Quantification </a></b> [Click for more details]</button>
+                        <div class="content">
+                            Recently, machine learning (ML)-assisted models, such as neural networks, capable of describing some of the complex physical phenomena with good accuracy and reasonable computational cost are increasingly used in engineering applications. For exercises that involve many realizations of the engineering systems (e.g., uncertainty quantification, design under uncertainty), these ML-assisted models can be exploited here to develop <i>physics-based surrogate models</i> that are easy to evaluate once trained but at the same time accurate.However, these networks require a large dataset to train. 
+				In this research thrust, efficient training of neural networks using smaller datasets for applications to engineering problems are explored. <br>
+                            <!--This work is done in collaboration with Prof. Alireza Doostan of CU Boulder and Dr. Matthew Reynolds of National Renewable Energy Laboratory (NREL). -->
+                            <br>
+                            Our contributions are: 
+                            <ul>
+                                <li>Development of transfer learning strategies for uncertainty quantification of complex engineering systems (<a href="http://www.dl.begellhouse.com/journals/52034eb04b657aea,3673619972b2eee6,3364eea04170ec7c.html"target="_blank">paper</a>). [<a href="https://github.com/CU-UQ/Transfer-Learning"target="_blank">codes</a>]</li>
+                               <li>Training of neural networks using l1-regularization and bi-fidelity data (<a href="https://arxiv.org/pdf/2105.13011.pdf"target = "_blank">paper</a>). </li>
+                               <li>Uncertainty quantification of locally nonlinear dynamical systems using neural networks (<a href="https://doi.org/10.1061/(ASCE)CP.1943-5487.0000965"target="_blank">paper</a>).</li>
+                            
+                               <li>Prediction of Ultrasonic Guided Wave Propagation in Solid-fluid and their Interface under Uncertainty using Machine Learning (<a href="https://doi.org/10.1061/(ASCE)EM.1943-7889.0002038"target="_blank">paper</a>).</li>
+                                <li>Application of the proposed strategies to multi-physics engineering prblems.</li>
+                            </ul>
+                           <figure>
+                           
+				   <input type="image" src="Figures/bfwl-1.png" style="max-width:600px;height:auto">
+                              <figcaption><i>Figure: Schematic of the bi-fidelity weighted transfer learning.</i></figcaption>
+                              </figure>
+				
+			<figure>
+                           <img src="Figures/reg_pic.png" style="max-width:533px;height:auto"></img>
+                              <figcaption><i>Figure: Schematic of different regularization strategies. Standard l1 and weighted l1-regularizations are used in this <a href="https://arxiv.org/pdf/2105.13011.pdf"target = "_blank">paper</a> to train neural networks.</i></figcaption>
+                              </figure>
+                           <figure>
+                           <img src="Figures/Fig7_schem-1.png"  style="max-width:577px;height:auto">
+                              <figcaption><i>Figure: The use of neural networks for uncertainty quantification of locally nonlinear dynamical systems.</i></figcaption>
+                           </figure>
+                            
+                            
+                            
+                        </div>
+                        <button type="button" class="collapsible"><b><a id="touu">Design Optimization under Uncertainty</a></b> [Click for more details]</button>
+                        <div class="content"> 
+				
+				The robust design of engineering systems requires the inclusion of uncertainties in the optimization process. 
+				The aim of this research thrust is to develop efficient design methodology and algorithms that can reduce the computational cost of robust and reliability-based optimization while considering uncertainty across multiple scales. 
+				<H3>Topology Optimization under Uncertainty (TOuU)</H3> 
+				
+				In <i>topology optimization</i> (TO), we try to think about optimally distributing materials inside the structure to satisfy some performance criteria. 
+				However, in the presence of uncertainty, achieving a meaningful optimized design is computationally burdensome as the number of optimization variables is large in TO. 
+				In our recent works, we showed that the <i>topology optimization under uncertainty</i> for engineering design could be efficiently performed using multiple variants of the stochastic gradient descent algorithms (including two <i>novel bi-fidelity algorithms</i>), famously employed in the training of neural networks, but tailored for TO applications. 
+                            <!--This work is done in collaboration with Prof. Alireza Doostan and Prof. Kurt Maute of CU Boulder.-->
+                            <br>
+                            Our contributions are:
+                            <ul>
+                                <li>Development of a stochastic gradient approach for TOuU (<A HREF="https://link.springer.com/article/10.1007/s00158-020-02599-z" target="_blank">paper</A>). [<a href="https://github.com/CU-UQ/SGD"target="_blank">codes</a>]</li>
+                                <li>Development of bi-fidelity stochastic gradient descent algorithms with proven linear convergence (<a href="https://link.springer.com/article/10.1007/s00466-020-01870-w" target="_blank">paper</a>).</li>
+                                <li>Applications: Topology optimization under micro-scale uncertainty, reliability-based topology optimization (<a href="https://doi.org/10.1007/s00158-021-03023-w"target="_blank">paper#1</a>,<a href="https://arxiv.org/pdf/2110.13358.pdf"target="_blank">paper#2</a>).
+                                    </ul>
+                            <figure>
+                            <img src="Figures/mbb.png" type="image/png" style="max-width:333px;height:auto"> 
+				    &emsp;&emsp;&emsp;&ensp;
+                            <iframe src="Figures/TO_movie2.mp4" type="video/mp4" width="367" height="167"> </iframe> 
+                            <figcaption><i>Figure: A typical example used in topology optimization (Two-fold symmetry is used in the movie). </i> </figcaption>
+                            </figure>
+	       <br>
+                           <figure>
+                            <img src="Figures/Bracket_design.png" type="image/png" style="max-width:500px;height:auto"> 
+                            <figcaption><i>Figure: A bracket is designed to support a payload box under microstructural uncertainty. </i> </figcaption>
+                            </figure>
+                           <br>
+                            <br>
+	    
+	    <H3> Optimal Design of Passive Structural Control Devices </H3> 
+	    
+	    		    In the recent past, many types of structures have been equipped with control devices to achieve some performance criteria (such as drift or acceleration mitigation). 
+                            We developed computationally efficient design procedure of passive control devices for complex structures using NVIE approach.
+                            <!--<br>
+                            This work is done in collaboration with Prof. Steven Wojtkiewicz of Clarkson University.-->
+                            <br>
+                            The proposed method has the following characteristics (<a href="http://onlinelibrary.wiley.com/doi/10.1002/stc.1846/abstract" target="_blank">paper</a>):<ul>
+                                <li>Realizable computation time for large and complex structures.</li>
+                                <li>Trade-off between accuracy and speedup exists.</li>
+                                <li>Uncertainty in the existing structure can be incorporated.</li>
+                                <li>Application to a benchmark cable-stayed bridge.</li>
+                            </ul>
+                            <figure>
+                                <img src="Figures/bridge.png" alt="bridge pic" style="max-width:533px;height:auto">
+                               <figcaption> <i>Figure: Efficient optimal design of passive control devices for a cable-stayed bridge. </i> </figcaption>
+                                    </figure>
+                            
+                            <br>
+                            <br>
+                        </div>
+                        
+                        <button type="button" class="collapsible"><b><a id="framework">Data-driven Probabilistic Model Validation </a></b> [Click for more details] </button>
+                        <div class="content">
+				<H3> Probabilistic Model Validation Framework </H3> 
+				
+                            We developed a computationally efficient model validation framework applicable to models from vast domains based on philosophy advanced by the famous statistician George P. Box: <i>``Essentially, all models are wrong, but some are useful.''</i>
+                            This framework integrates the principle of falsification into the model selection process within a <i>Bayesian</i> framework utilizing measurement datasets from physical experiments to mitigate the weaknesses of existing individual validation schemes. 
+				<!--<br>This work is done in collaboration with Prof. Steven Wojtkiewicz of Clarkson University and Dr. Patrick T. Brewick of United States Naval Research Laboratory.
+                            -->
+				<br>
+                            Our contributions are:
+                            <ul>
+                                <li>Introduction of <i>false discovery rate</i> and <i>likelihood-bound</i> in model falsification (<a href="https://ascelibrary.org/doi/full/10.1061/%28ASCE%29EM.1943-7889.0001440" target="_blank">paper</a>). [<a href="https://github.com/subhayande/Model_Falsification"target="_blank">codes</a>]
+                                    <li>A probabilistic machine learning framework is proposed for efficient validation of models (<a href="https://www.sciencedirect.com/science/article/abs/pii/S088832701830685X" target="_blank">paper</a>).</li>
+                                    <li>Applications to structural, turbulence, and material modeling problems.</li>
+                                    </ul>
+                            
+                            </li>
+                            
+                            <figure>
+                            <img src="Figures/framework.png"  style="width:auto;max-height:200px"> 
+                            <img src="Figures/four_story.png"  style="width:auto;max-height:200px"> 
+                            <figcaption>
+                            <i>Figure: Proposed probabilistic model validation framework has been applied to a full-scale four-story building tested at Japan's E-Defense Lab. </i>
+                        </figcaption> 
+	       </figure>
+                           <br>
+                            <br>
+	<H3> Efficient Bayesian Model Selection </H3> 
+	Bayesian model selection chooses, based on measured data, using Bayes’ theorem, suitable mathematical models from a set of possible models. 
+	In structural analysis, linear models are often used to facilitate design and analysis, though they do not always accurately reproduce actual structural responses. 
+	When the models also require the inclusion of nonlinearity to improve accuracy, the computation time required for response simulation increases significantly. 
+			<!--This work is done in collaboration with Prof. Steven Wojtkiewicz of Clarkson University and Prof. Patrick T. Brewick of the University of Notre Dame.-->
+                            <br>
+                            To address this issue, our contributions are (<a href="https://ascelibrary.org/doi/abs/10.1061/%28ASCE%29EM.1943-7889.0001397" target="_blank">paper</a>):
+                            <ul>
+                                <li>Development of a computationally efficient method using Nonlinear Volterra type Integral Equations (NVIE) to model selection problems.</li>
+                                <li>Incorporating dynamic time history data for nonlinear models as the modal parameters changes with time in nonlinear models.</li>
+                                <li>Using NVIE approach the speedup is upto three orders of magnitude compared to traditional nonlinear solvers.</li>
+                                <li>The approach is demonstrated using a 100 DOF building structure subjected to earthquake excitation and a 1623 DOF three-dimensional building subjected to wind excitation.</li>
+                            </ul>
+                            
+                            </li> 
+                            <figure>
+                            <img src="Figures/100dof.png"  style="max-width:300px;height:auto">
+                               <figcaption>
+                                  <i>Figure: A 100 DOF building with hysteretic isolation layer is used in this <a href="https://ascelibrary.org/doi/abs/10.1061/%28ASCE%29EM.1943-7889.0001397" target="_blank">paper</a>. </i>
+                               </figcaption>
+                               </figure>
+                           <br> 
+                           <figure>
+                            <img src="Figures/1623.png"  style="max-width:200px;height:auto"> 
+                               <figcaption>
+                                  <i>Figure: A 1623 DOF (right) building  with three tuned-mass dampers on its roof is used in <a href="https://ascelibrary.org/doi/abs/10.1061/%28ASCE%29EM.1943-7889.0001397" target="_blank">paper</a>. </i>
+                               </figcaption>
+                               </figure>
+                            <br>
+                            
+                            <br>
+                            <br>
+                            
+                            <!--<b>Bayesian Model Selection in Structural Engineering  </b> <i>(Indian Institute of Science)</i> <br><br> A rigorous study on prior sensitivity, incorporation of training and validation data in Bayesian model selection.</li>
+                        -->
+			</div>
+                        
+                        <!--<button type="button" class="collapsible"><b><a id="bms">Efficient Bayesian Model Selection  </a></b> [Click for more details] </button>
+                        <div class="content">
+                            
+                            <br>This work is done in collaboration with Prof. Steven Wojtkiewicz of Clarkson University and Dr. Patrick T. Brewick of United States Naval Research Laboratory.
+                            <br>
+                            Our contributions are (<a href="https://ascelibrary.org/doi/abs/10.1061/%28ASCE%29EM.1943-7889.0001397" target="_blank">paper</a>):
+                            <ul>
+                                <li>Development of a computationally efficient method using Nonlinear Volterra type Integral Equations (NVIE) to model selection problems.</li>
+                                <li>Incorporating dynamic time history data for nonlinear models as the modal parameters changes with time in nonlinear models.</li>
+                                <li>Using NVIE approach the speedup is upto three orders of magnitude compared to traditional nonlinear solvers.</li>
+                                <li>The approach is demonstrated using a 100 DOF building structure subjected to earthquake excitation and a 1623 DOF three-dimensional building subjected to wind excitation.</li>
+                            </ul>
+                            
+                            </li> 
+                            <figure>
+                            <img src="Figures/100dof.png"  style="width:300px;height:300px" frameborder="1" scrolling="no" align="left">
+                               <br>
+                               <figcaption>
+                                  <i>Figure: A 100 DOF building with hysteretic isolation layer is used in this <a href="https://ascelibrary.org/doi/abs/10.1061/%28ASCE%29EM.1943-7889.0001397" target="_blank">paper</a>. </i>
+                               </figcaption>
+                               </figure>
+                           <br> 
+                           <figure>
+                            <img src="Figures/1623.png"  style="width:200px;height:350px" frameborder="1" scrolling="no" align="left"> 
+                              <br>
+                               <figcaption>
+                                  <i>Figure: A 1623 DOF (right) building  with three tuned-mass dampers on its roof is used in <a href="https://ascelibrary.org/doi/abs/10.1061/%28ASCE%29EM.1943-7889.0001397" target="_blank">paper</a>. </i>
+                               </figcaption>
+                               </figure>
+                            <br>
+                            
+                            <br>
+                            <br>
+                            
+                            <b>Bayesian Model Selection in Structural Engineering  </b> <i>(Indian Institute of Science)</i> <br><br> A rigorous study on prior sensitivity, incorporation of training and validation data in Bayesian model selection.</li>
+                        </div> -->
+                        
+                        <!-- <button type="button" class="collapsible"><b><a id="control">Optimal Design of Passive Structural Control Devices </a></b> [Click for more details] </button>
+                        <div class="content">
+                            <br>
+                            Development of computationally efficient design procedure of passive control devices for complex structures using NVIE approach.
+                            <br>
+                            This work is done in collaboration with Prof. Steven Wojtkiewicz of Clarkson University.
+                            <br>
+                            The proposed method has the following characteristics (<a href="http://onlinelibrary.wiley.com/doi/10.1002/stc.1846/abstract" target="_blank">paper</a>):<ul>
+                                <li>Realizable computation time for large and complex structures.</li>
+                                <li>Trade-off between accuracy and speedup exists.</li>
+                                <li>Uncertainty in the existing structure can be incorporated.</li>
+                                <li>Application to a benchmark cable-stayed bridge.</li>
+                            </ul>
+                            <figure>
+                                <img src="Figures/bridge.png" alt="bridge pic" style="width:800px;height:450px">
+                               <figcaption> <i>Figure: Efficient optimal design of passive control devices for a cable-stayed bridge. </i> </figcaption>
+                                    </figure>
+                            
+                            <br>
+                            <br>
+                        </div> -->
+        
+</hh3>
+        
+    </div>
+	
+	
+	
+	
+	
     
 <script>
         
