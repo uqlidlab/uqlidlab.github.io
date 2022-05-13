@@ -162,16 +162,12 @@ hh3 {
     <ul class="tab">
         <li><a href="#" class="tablinks" onclick="openCity(event, 'Home')"><hh3>Home <br /> &nbsp;</hh3></a></li>
         <li><a href="#" class="tablinks" onclick="openCity(event, 'People')"><hh3>People <br /> &nbsp; </hh3> </a></li>
-       
         <li><a href="#" class="tablinks" onclick="openCity(event, 'Research')"><hh3>Research <br /> &nbsp;</hh3></a></li>
         <li><a href="#" class="tablinks" onclick="openCity(event, 'Publications')"><hh3>Publications <br /> &nbsp;</hh3></a></li>
         <li><a href="#" class="tablinks" onclick="openCity(event, 'Codes and Tutorials')"><hh3>Codes &amp; <br /> Tutorials</hh3></a></li>
         <li><a href="#" class="tablinks" onclick="openCity(event, 'Awards')"> <hh3>Talks <br /> &nbsp;</hh3></a></li>
-       
         <!--<li><a href="#" class="tablinks" onclick="openCity(event, 'Photos')"><hh3>Photos <br /> &nbsp;</hh3></a></li>-->
-       <li><a href="#" class="tablinks" onclick="openCity(event, 'Contact')"><hh3>Contact  <br /> &nbsp;</hh3></a></li>
-
-
+        <li><a href="#" class="tablinks" onclick="openCity(event, 'Contact')"><hh3>Contact  <br /> &nbsp;</hh3></a></li>
     </ul>
     &nbsp;
 	
@@ -185,7 +181,7 @@ hh3 {
         
 
     <div id="Home" class="tabcontent">
-           jiji
+           
 
     </div>
 
@@ -193,11 +189,57 @@ hh3 {
     <div id="People" class="tabcontent">
         <H2>People:</H2> 
 	
-    jiji
+    Subhayan
     
     	</div>
     
-
+<script>
+        
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tabcontent.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+     
+     ga('create', 'UA-78885112-1', 'auto');
+     ga('send', 'pageview');
+     
+     var coll = document.getElementsByClassName("collapsible");
+                 var i;
+                 
+                 for (i = 0; i < coll.length; i++) {
+                     coll[i].addEventListener("click", function() {
+                                              this.classList.toggle("active");
+                                              var content = this.nextElementSibling;
+                                              if (content.style.display === "block") {
+                                              content.style.display = "none";
+                                              } else {
+                                              content.style.display = "block";
+                                              }
+                                              });
+                 }
+    
+        </script>
+    
+    
+    
+    <IMG WIDTH=560 HEIGHT=3
+        SRC="/Pictures/USCBar2.gif"
+        ALT="=================================================="
+        >
     
     
 </BODY>
