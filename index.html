@@ -262,8 +262,8 @@ hh3 {
   with a fixed width and height */
 .slide {
     float: left;
-    height: 510px;
-    width: 728px;
+    height: auto;
+    width: 500px;
 }
 
 /* Add animation to the slides */
@@ -271,7 +271,7 @@ hh3 {
 
     /* Calculate the total width on the
     basis of number of slides */
-    width: calc(728px * 4);
+    width: calc(500px * 4);
 
     /* Specify the animation with the
     duration and speed */
@@ -281,19 +281,19 @@ hh3 {
 /* Set the background color
   of each of the slides */
 .slide:nth-child(1) {
-    background: green;
+    background: blue;
 }
 
 .slide:nth-child(2) {
-    background: pink;
+    background: blue;
 }
 
 .slide:nth-child(3) {
-    background: red;
+    background: blue;
 }
 
 .slide:nth-child(4) {
-    background: yellow;
+    background: blue;
 }
 
 /* Define the animation 
@@ -307,15 +307,15 @@ hh3 {
     }
 
     40% {
-        margin-left: calc(-728px * 1);
+        margin-left: calc(-500px * 1);
     }
 
     60% {
-        margin-left: calc(-728px * 2);
+        margin-left: calc(-500px * 2);
     }
 
     80% {
-        margin-left: calc(-728px * 3);
+        margin-left: calc(-500px * 3);
     }
 }
 	   
